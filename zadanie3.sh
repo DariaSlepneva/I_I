@@ -56,7 +56,6 @@ case "$answer" in
 				cd $dir/public_html
 				mkdir private_html
 				chown -R $new_user_name:$new_user_name private_html
-				chmod 0700 private_html
 				echo $new_user_name >> /etc/vsftpd.userlist
 				echo " " 
 				echo "Write password for your private_html:"
