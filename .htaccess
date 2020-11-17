@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Username and password required"
+AuthUserFile /home/nuser/public_html/private_html/.htpasswd
+Require valid-user
